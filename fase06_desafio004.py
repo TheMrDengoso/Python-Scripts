@@ -1,0 +1,8 @@
+n = input("Digite algo: ")
+print(type(n))
+print("O objeto é númerico?",n.isnumeric())
+print("O objeto é string?",n.isalpha())
+print("O objeto  começa com letra maiscula?",n.istitle())
+print("O objeto começa com letra minuscula?",n.islower())
+print('O objeto é decimal?',n.isdecimal())
+print('O objeto começa com espaços?',n.isalnum())
